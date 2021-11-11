@@ -68,7 +68,7 @@ read OPTION
 					
 					apt-get -f install
 					
-					apt-get install ttf-mscorefonts-installer
+					apt-get install -y ttf-mscorefonts-installer
 
 					
 					# extracts the tar to /
