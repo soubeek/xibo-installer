@@ -1,5 +1,4 @@
-# xibo-installer
-
+# Xibo installer for Ubuntu 12.04
 For clone depot, first install git-lfs
 
 Open a terminal and paste: <br>
