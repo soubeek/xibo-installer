@@ -68,6 +68,9 @@ read OPTION
 					
 					apt-get -f install
 					
+					apt-get install ttf-mscorefonts-installer
+
+					
 					# extracts the tar to /
 					tar xf libavg-* -C /
 
