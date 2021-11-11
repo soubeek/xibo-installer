@@ -63,14 +63,14 @@ read OPTION
 					apt-get update > /dev/null
 
 					# downloads the required files per http://xibo.org.uk/manual
-					apt-get install -y libxss1 glade-gtk2 libboost-python1.46.1 libboost-thread1.46.1 libdc1394-22 libgtk2.0-0 libavutil51 bzr python-soappy python-feedparser python-serial flashplugin-installer libavcodec53 libavformat53 libswscale2 libsdl1.2debian libvdpau1 > /dev/null
-
+					#apt-get install -y libxss1 glade-gtk2 libboost-python1.46.1 libboost-thread1.46.1 libdc1394-22 libgtk2.0-0 libavutil51 bzr python-soappy python-feedparser python-serial flashplugin-installer libavcodec53 libavformat53 libswscale2 libsdl1.2debian libvdpau1 > /dev/null
+					dpkg -i deb/*
+					
+					apt-get -f install
 					
 					# extracts the tar to /
 					tar xf libavg-* -C /
 
-					# removes tar file after extract
-					rm libavg-*
 
 					# runs ldconfig
 					ldconfig
