@@ -79,7 +79,7 @@ read OPTION
 					ldconfig
 
 					# moves to dir and downloads pyclient
-					cd /opt/xibo && git clone https://github.com/xsabouk/xibo-pyclient.git pyclient
+					cd /opt/xibo && git clone https://github.com/soubeek/xibo-pyclient.git pyclient
 					
 					# grants 777 read/write permissions to all
 					chmod -R 777 /opt/xibo
