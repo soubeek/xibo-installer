@@ -53,9 +53,6 @@ read OPTION
 			# Check which version of Ubuntu the user is running and then selects what to do
 			codename=`lsb_release -c | awk '{print $2}'`
 
-			if [ "$codename" == "precise" ]
-
-				then
 					echo " "
 					echo "========================================================"
 					echo " Installing Xibo Python Client for Ubuntu 12.04"
